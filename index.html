@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shelter Colony</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="resource-bar" aria-label="Resource bar"></header>
+
+      <main id="main-layout">
+        <section id="grid-section" aria-label="Shelter grid">
+          <h1>Shelter Colony</h1>
+          <p class="subtitle">Build, assign, and survive below the surface.</p>
+          <div id="shelter-grid" role="grid" aria-label="Shelter build grid"></div>
+          <div id="build-menu" aria-label="Build menu"></div>
+        </section>
+
+        <aside id="detail-panel" aria-label="Selected room details"></aside>
+      </main>
+
+      <footer id="controls">
+        <button id="save-btn" type="button">💾 Save</button>
+        <button id="reset-btn" type="button">🧹 Reset</button>
+      </footer>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
